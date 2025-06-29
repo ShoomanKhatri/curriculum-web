@@ -8,7 +8,6 @@ import {
   FlaskConical,
   Users,
 } from "lucide-react";
-import Link from "next/link";
 
 export default function HomePage() {
   const creativityAreas = [
@@ -25,14 +24,13 @@ export default function HomePage() {
     <div className="max-w-6xl mx-auto px-4 py-8">
       {/* Hero Banner */}
       <div className="bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-400 rounded-3xl p-8 mb-12 text-white">
-        <Link href="/">
-          <div className="flex items-center justify-center mb-4">
-            <Sparkles className="h-12 w-12 mr-4" />
-            <h1 className="text-4xl md:text-5xl font-bold text-center">
-              Facilitating Creativity in the Curriculum
-            </h1>
-          </div>
-        </Link>
+        <div className="flex items-center justify-center mb-4">
+          <Sparkles className="h-12 w-12 mr-4" />
+          <h1 className="text-4xl md:text-5xl font-bold text-center">
+            Facilitating Creativity in the Curriculum
+          </h1>
+        </div>
+
         <p className="text-xl text-center max-w-3xl mx-auto">
           Empowering early childhood educators to nurture creative thinking and
           expression across all learning domains
