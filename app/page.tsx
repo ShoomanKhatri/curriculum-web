@@ -1005,9 +1005,9 @@ export default function HomePage() {
               society, not just an instructional tactic. Understanding the
               theories that underpin creative development, putting
               evidence-based practices into practice, and fostering environments
-              that promote expression and exploration can all help kids acquire
-              the critical thinking abilities they need to prosper in a world
-              that is constantly changing.
+              that promote expression and exploration can all help childrens
+              acquire the critical thinking abilities they need to prosper in a
+              world that is constantly changing.
             </p>
           </div>
 

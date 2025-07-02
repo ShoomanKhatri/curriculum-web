@@ -32,7 +32,7 @@ export default function ArtPage() {
       age: "0-2 Years",
       color: "bg-yellow-100 border-yellow-300",
       image:
-        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop&crop=center",
+        "https://www.artycraftykids.com/wp-content/uploads/2016/10/Baby-Bubble-Wrap-Art-Pin--768x1313.jpg",
       activities: [
         {
           title: "Sensory Paint Exploration",
@@ -479,7 +479,7 @@ export default function ArtPage() {
           <div>
             <p className="text-gray-700 leading-relaxed text-lg mb-6">
               In early childhood, art is a vital medium for creative expression,
-              giving kids the chance to express concepts, feelings, and
+              giving childrens the chance to express concepts, feelings, and
               experiences that go beyond spoken language. Young students gain
               confidence in their capacity to create and innovate while making
               decisions about color, form, and composition through artistic
