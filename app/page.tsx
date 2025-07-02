@@ -96,8 +96,9 @@ export default function HomePage() {
     },
     {
       number: "10",
-      title: "National Quality Standard (NQS)",
-      href: "#nqs",
+      title:
+        "Australian Children's Education and Care Quality Authority (ACECQA)",
+      href: "#acecqa",
       icon: Award,
     },
     { number: "11", title: "Conclusion", href: "#conclusion", icon: FileText },
@@ -895,15 +896,15 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* NQS */}
+      {/* ACECQA */}
       <section
-        id="nqs"
+        id="acecqa"
         className="bg-gradient-to-br from-white to-green-50 rounded-2xl shadow-lg p-8 mb-8 border border-green-100"
       >
         <div className="flex items-center mb-6">
           <Award className="h-10 w-10 text-green-600 mr-4" />
           <h2 className="text-3xl font-bold text-gray-800">
-            National Quality Standard (NQS)
+            Australian Children's Education and Care Quality Authority (ACECQA)
           </h2>
         </div>
 
@@ -916,20 +917,22 @@ export default function HomePage() {
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-3">•</span>
                 <span>
-                  Programs based on approved learning frameworks support
-                  creativity
+                  ACECQA ensures programs based on approved learning frameworks
+                  support creativity
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-3">•</span>
                 <span>
-                  Play-based learning approaches enhance creative development
+                  Promotes play-based learning approaches that enhance creative
+                  development
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-3">•</span>
                 <span>
-                  Intentional teaching strategies support creative thinking
+                  Advocates for intentional teaching strategies that support
+                  creative thinking
                 </span>
               </li>
             </ul>
@@ -938,7 +941,7 @@ export default function HomePage() {
           <div className="relative">
             <Image
               src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=500&fit=crop&crop=center"
-              alt="Quality early childhood education environment supporting NQS standards"
+              alt="Quality early childhood education environment supporting ACECQA standards"
               width={400}
               height={500}
               className="rounded-2xl shadow-lg object-cover w-full h-full"
@@ -954,16 +957,17 @@ export default function HomePage() {
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-3">•</span>
                 <span>
-                  Spaces thoughtfully designed for creative exploration
+                  ACECQA guidelines ensure spaces are thoughtfully designed for
+                  creative exploration
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-3">•</span>
-                <span>Resources inspire innovation and imagination</span>
+                <span>Resources that inspire innovation and imagination</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 font-bold mr-3">•</span>
-                <span>Equipment actively invites creative engagement</span>
+                <span>Equipment that actively invites creative engagement</span>
               </li>
             </ul>
           </div>
@@ -971,13 +975,14 @@ export default function HomePage() {
 
         <div className="bg-white rounded-xl p-6 shadow-md">
           <p className="text-gray-700 leading-relaxed text-lg">
-            The NQS supports creativity through quality educational programs
-            that provide children with meaningful opportunities for exploration,
-            investigation, and creative expression. It emphasizes the critical
-            importance of environments and practices that nurture children's
-            natural curiosity and imagination while maintaining high standards
-            of safety and educational excellence (Australian Children's
-            Education and Care Quality Authority, 2020).
+            ACECQA oversees the National Quality Standard (NQS) and supports
+            creativity through quality educational programs that provide
+            children with meaningful opportunities for exploration,
+            investigation, and creative expression. The authority emphasizes the
+            critical importance of environments and practices that nurture
+            children's natural curiosity and imagination while maintaining high
+            standards of safety and educational excellence (Australian
+            Children's Education and Care Quality Authority, 2020).
           </p>
         </div>
       </section>
