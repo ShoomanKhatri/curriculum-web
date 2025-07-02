@@ -468,20 +468,19 @@ export default function DramaPuppetryPage() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <p className="text-gray-700 leading-relaxed mb-4 text-lg">
-              Drama and puppetry serve as powerful catalysts for imaginative
-              thinking and creative expression, providing children with safe
-              spaces to explore perspectives, experiment with identity, and
-              process emotions through symbolic play. These art forms develop
-              essential social-emotional skills including empathy, cooperation,
-              and conflict resolution while strengthening communication
-              abilities.
+              Children are given safe spaces to experiment with identity,
+              explore perspectives, and process emotions through symbolic play
+              through drama and puppetry, which are potent stimulants for
+              imaginative thinking and creative expression. These artistic
+              disciplines enhance communication skills while fostering the
+              development of critical social-emotional competencies like
+              empathy, teamwork, and conflict resolution.
             </p>
             <p className="text-gray-700 leading-relaxed text-lg">
-              Puppetry offers unique opportunities for reluctant speakers to
-              find their voice, with puppets serving as bridges between internal
-              thoughts and external expression, fostering creative
-              problem-solving through character motivations and collaborative
-              storytelling.
+              With puppets acting as a conduit between internal and external
+              ideas and encouraging creative problem-solving through character
+              motivations and group storytelling, puppetry provides exceptional
+              chances for reticent speakers to discover their voice.
             </p>
           </div>
           <div className="relative">

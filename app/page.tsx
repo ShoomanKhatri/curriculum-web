@@ -183,12 +183,12 @@ export default function HomePage() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <p className="text-gray-700 leading-relaxed mb-4 text-lg">
-              Welcome to our comprehensive exploration of creativity in early
-              childhood education. This website serves as a practical guide for
-              educators, parents, and childcare professionals who understand
-              that creativity isn't just about arts and crafts—it's about
-              nurturing young minds to think differently, solve problems
-              innovatively, and express themselves authentically.
+              Welcome to our in-depth examination of early childhood education's
+              use of creativity. This website is a useful resource for parents,
+              teachers, and childcare providers who are aware of that fostering
+              young minds to think creatively, solve problems creatively, and
+              express themselves authentically is more important than merely
+              doing arts and crafts.
             </p>
             <p className="text-gray-700 leading-relaxed text-lg">
               In today's rapidly changing world, the ability to think creatively
@@ -1000,13 +1000,14 @@ export default function HomePage() {
         <div className="grid md:grid-cols-2 gap-8 mb-6">
           <div className="bg-gradient-to-r from-purple-100 to-pink-100 rounded-2xl p-8">
             <p className="text-gray-700 leading-relaxed text-xl">
-              Fostering creativity in early childhood education is not merely an
-              educational strategy—it is a fundamental investment in children's
-              futures and society's wellbeing. By understanding the theories
-              that support creative development, implementing evidence-based
-              practices, and creating environments that encourage exploration
-              and expression, we can help children develop the creative thinking
-              skills they need to thrive in an ever-changing world.
+              Promoting creativity in early childhood education is a vital
+              investment in the futures of children and the well-being of
+              society, not just an instructional tactic. Understanding the
+              theories that underpin creative development, putting
+              evidence-based practices into practice, and fostering environments
+              that promote expression and exploration can all help kids acquire
+              the critical thinking abilities they need to prosper in a world
+              that is constantly changing.
             </p>
           </div>
 

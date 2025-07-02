@@ -478,21 +478,21 @@ export default function ArtPage() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <p className="text-gray-700 leading-relaxed text-lg mb-6">
-              Art serves as a fundamental vehicle for creative expression in
-              early childhood, providing children with opportunities to
-              communicate ideas, emotions, and experiences that extend beyond
-              verbal language. Through artistic exploration, young learners
-              develop critical thinking skills as they make decisions about
-              color, form, and composition while building confidence in their
-              ability to create and innovate.
+              In early childhood, art is a vital medium for creative expression,
+              giving kids the chance to express concepts, feelings, and
+              experiences that go beyond spoken language. Young students gain
+              confidence in their capacity to create and innovate while making
+              decisions about color, form, and composition through artistic
+              exploration, which also helps them to develop critical thinking
+              skills.
             </p>
             <p className="text-gray-700 leading-relaxed text-lg">
-              The creative process inherent in art-making encourages
-              risk-taking, experimentation, and resilience, fostering cognitive
-              flexibility essential for problem-solving. Art experiences engage
-              multiple senses simultaneously, strengthening neural pathways
-              crucial for learning while supporting fine motor development,
-              spatial awareness, and visual-perceptual skills.
+              Making art naturally stimulates risk-taking, experimentation, and
+              resilience, which develops the cognitive flexibility needed for
+              problem-solving. Experiences with art stimulate several senses at
+              once, enhancing neural pathways that are essential for learning
+              while promoting the development of fine motor skills, spatial
+              awareness, and visual-perceptual abilities.
             </p>
           </div>
           <div className="relative">
