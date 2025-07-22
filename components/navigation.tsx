@@ -23,6 +23,7 @@ export default function Navigation() {
     { href: "/", label: "Home", icon: Home },
     { href: "/art", label: "Art", icon: Palette },
     { href: "/drama-puppetry", label: "Drama & Puppetry", icon: Drama },
+    { href: "/movement-music", label: "Movement & Music", icon: BookOpen },
   ];
 
   const NavLink = ({
