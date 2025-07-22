@@ -525,7 +525,7 @@ export default function HomePage() {
           <div className="bg-gradient-to-br from-white to-gray-50 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer transform hover:-translate-y-1">
             <div className="relative mb-4">
               <Image
-                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=250&fit=crop&crop=center"
+                src="https://media.istockphoto.com/id/2059130753/photo/young-mother-plays-with-her-little-son-with-toys-at-home-and-smiles-2-year-old-boy-plays-with.jpg?s=2048x2048&w=is&k=20&c=39m_z2OS-4sQ71X3xyTKgOLmltz6n-y6tOKydFu3baA="
                 alt="Children playing and moving together in a group activity"
                 width={400}
                 height={250}
@@ -940,7 +940,7 @@ export default function HomePage() {
 
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=500&fit=crop&crop=center"
+              src="https://media.istockphoto.com/id/1367828290/photo/a-group-of-preschoolers-running-on-the-grass-in-the-park.jpg?s=2048x2048&w=is&k=20&c=DkSOAj3-hSZ3UTZ87s57VBVWTPISzy0HL9VXvDQyLDc="
               alt="Quality early childhood education environment supporting ACECQA standards"
               width={400}
               height={500}

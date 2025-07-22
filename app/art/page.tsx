@@ -294,7 +294,7 @@ export default function ArtPage() {
     },
   ];
 
-  const getTimelineIcon = (iconType) => {
+  const getTimelineIcon = (iconType: string) => {
     switch (iconType) {
       case "setup":
         return <CheckCircle className="h-4 w-4" />;

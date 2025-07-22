@@ -2,7 +2,18 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Palette, Drama, Home, BookOpen, Menu } from "lucide-react";
+import {
+  Palette,
+  Drama,
+  Home,
+  BookOpen,
+  Menu,
+  Wrench,
+  FileText,
+  FlaskConical,
+  Calculator,
+  Sparkles,
+} from "lucide-react";
 import { useState } from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
 import {
@@ -23,7 +34,42 @@ export default function Navigation() {
     { href: "/", label: "Home", icon: Home },
     { href: "/art", label: "Art", icon: Palette },
     { href: "/drama-puppetry", label: "Drama & Puppetry", icon: Drama },
-    { href: "/movement-music", label: "Movement & Music", icon: BookOpen },
+    { href: "/movement-music", label: "Movement & Music", icon: Sparkles },
+    {
+      href: "/language-literacy",
+      label: "Language & Literacy",
+      icon: BookOpen,
+    },
+    {
+      href: "/science",
+      label: "Science",
+      icon: FlaskConical,
+    },
+    {
+      href: "/engineering",
+      label: "Engineering",
+      icon: Wrench,
+    },
+    {
+      href: "/technologies",
+      label: "Technologies",
+      icon: FlaskConical,
+    },
+    {
+      href: "/mathematics-numeracy",
+      label: "Mathematics & Numeracy",
+      icon: Calculator,
+    },
+    {
+      href: "/humanities-social-sciences",
+      label: "Humanities & Social Sciences",
+      icon: FileText,
+    },
+    {
+      href: "/integrated-curriculum",
+      label: "Integrated Curriculum",
+      icon: Sparkles,
+    },
   ];
 
   const NavLink = ({
@@ -67,11 +113,35 @@ export default function Navigation() {
             </div>
           </Link>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-8">
-            {navItems.map((item) => (
+          {/* Desktop Navigation - Show first 3, rest in hamburger */}
+          <div className="hidden md:flex space-x-4 items-center">
+            {navItems.slice(0, 3).map((item) => (
               <NavLink key={item.href} item={item} />
             ))}
+            <div className="relative group">
+              <button
+                className="flex items-center px-3 py-2 rounded-lg text-gray-600 hover:text-purple-600 hover:bg-purple-50 transition-colors border border-transparent group-hover:border-purple-200 focus:outline-none"
+                onClick={() => setIsOpen((open) => !open)}
+                aria-label="Open navigation menu"
+              >
+                <Menu className="h-6 w-6 mr-1" />
+                <span className="font-medium">More</span>
+              </button>
+              {/* Dropdown for remaining menu items */}
+              {isOpen && (
+                <div className="absolute right-0 mt-2 w-56 bg-white rounded-xl shadow-xl border border-purple-100 z-50 animate-fade-in">
+                  <div className="flex flex-col py-2">
+                    {navItems.slice(3).map((item) => (
+                      <NavLink
+                        key={item.href}
+                        item={item}
+                        onClick={() => setIsOpen(false)}
+                      />
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
           </div>
 
           {/* Mobile Navigation */}

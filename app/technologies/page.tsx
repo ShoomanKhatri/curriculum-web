@@ -1,102 +1,98 @@
 import Image from "next/image";
 import {
-  Music,
+  FlaskConical,
   Brain,
-  Wrench,
   Users,
   Clock,
   FileText,
   Home,
-  Heart,
+  BookOpen,
+  List as ListIcon,
+  Lightbulb,
+  Sparkles,
+  Palette,
+  Wrench,
   Award,
   Target,
-  BookOpen,
-  Sparkles,
-  ListIcon as List,
-  Volume2,
-  Play,
-  Headphones,
-  Zap,
-  Star,
 } from "lucide-react";
 
-export default function MovementMusicPage() {
-  // Age groups with timeline activities for movement and music
+export default function TechnologiesPage() {
+  // Age groups with timeline activities for technologies
   const ageGroups = [
     {
       age: "0-12 months",
       timeline: [
-        "Gentle lullabies and soft music during routines",
-        "Simple body movements like clapping and gentle bouncing",
-        "Exploring different textures and sounds through touch",
-        "Following simple rhythms with body movements",
-        "Responding to music with facial expressions and gestures",
+        "Exploring cause and effect with light-up or sound toys",
+        "Observing adults use simple technology (remotes, phones)",
+        "Tummy time with interactive play mats",
+        "Responding to music from digital devices",
+        "Manipulating buttons and switches on toys",
       ],
     },
     {
       age: "1-2 years",
       timeline: [
-        "Dancing to different types of music",
-        "Simple instrument exploration (shakers, drums)",
-        "Moving to fast and slow rhythms",
-        "Imitating animal movements with music",
-        "Singing simple repetitive songs",
-        "Exploring cause and effect with musical toys",
+        "Using simple digital toys (push-button music, lights)",
+        "Exploring touch screens with adult guidance",
+        "Taking photos with a child-safe camera",
+        "Listening to stories on audio devices",
+        "Building with blocks that make sounds or light up",
       ],
     },
     {
       age: "2-3 years",
       timeline: [
-        "Creating simple rhythms with body percussion",
-        "Moving scarves and ribbons to music",
-        "Learning action songs and finger plays",
-        "Exploring different ways to move (tip-toe, march, crawl)",
-        "Making music with household items",
-        "Following simple musical instructions",
+        "Drawing on tablets with stylus or finger",
+        "Exploring programmable toys (Bee-Bot, Code-a-pillar)",
+        "Recording and playing back their own voice",
+        "Sorting and matching games on digital devices",
+        "Using simple apps for music or art creation",
       ],
     },
     {
       age: "3-4 years",
       timeline: [
-        "Participating in group musical games",
-        "Creating simple compositions with instruments",
-        "Learning about loud/soft, fast/slow concepts",
-        "Dancing with props and costumes",
-        "Singing familiar songs from memory",
-        "Exploring different genres of music",
-        "Developing gross motor skills through dance",
+        "Creating digital art with apps",
+        "Participating in video calls with family",
+        "Exploring basic coding games",
+        "Using digital microscopes or magnifiers",
+        "Documenting projects with photos or video",
       ],
     },
     {
       age: "4-5 years",
       timeline: [
-        "Composing simple melodies and rhythms",
-        "Learning basic musical concepts (beat, tempo)",
-        "Choreographing simple dance sequences",
-        "Playing simple musical games with rules",
-        "Exploring cultural music and dance styles",
-        "Recording and listening to their own musical creations",
-        "Developing coordination through complex movements",
+        "Building and programming simple robots",
+        "Making stop-motion videos with adult help",
+        "Exploring educational websites and games",
+        "Collaborating on digital storytelling",
+        "Learning about internet safety basics",
       ],
     },
   ];
 
-  // Function to get appropriate icon for timeline items
   const getTimelineIcon = (index: number) => {
-    const icons = [Music, Volume2, Play, Headphones, Zap, Star];
+    const icons = [
+      FlaskConical,
+      BookOpen,
+      Sparkles,
+      Lightbulb,
+      Palette,
+      Wrench,
+    ];
     return icons[index % icons.length];
   };
 
   const tableOfContents = [
     {
       number: "1",
-      title: "Introduction to Movement and Music",
+      title: "Introduction to Technologies",
       href: "#introduction",
-      icon: Music,
+      icon: FlaskConical,
     },
     {
       number: "2",
-      title: "Importance of Movement and Music",
+      title: "Importance of Technologies",
       href: "#importance",
       icon: Brain,
     },
@@ -139,14 +135,14 @@ export default function MovementMusicPage() {
         <div className="absolute inset-0 bg-black bg-opacity-10"></div>
         <div className="relative z-10">
           <div className="flex items-center justify-center mb-4">
-            <Music className="h-12 w-12 mr-4 animate-bounce" />
+            <FlaskConical className="h-12 w-12 mr-4 animate-pulse" />
             <h1 className="text-4xl md:text-5xl font-bold text-center">
-              Movement and Music in Early Childhood
+              Technologies in Early Childhood
             </h1>
           </div>
           <p className="text-xl text-center max-w-3xl mx-auto leading-relaxed">
-            Fostering rhythm, expression, and physical development through the
-            joy of movement and music
+            Empowering children to explore, create, and problem-solve with
+            digital and physical technologies
           </p>
         </div>
       </div>
@@ -154,7 +150,7 @@ export default function MovementMusicPage() {
       {/* Table of Contents */}
       <div className="bg-gradient-to-br from-white to-blue-50 rounded-2xl shadow-xl p-8 mb-12 border border-blue-100">
         <div className="flex items-center mb-8">
-          <List className="h-10 w-10 text-blue-600 mr-4" />
+          <ListIcon className="h-10 w-10 text-blue-600 mr-4" />
           <h2 className="text-3xl font-bold text-gray-800">
             Table of Contents
           </h2>
@@ -193,33 +189,32 @@ export default function MovementMusicPage() {
         className="bg-gradient-to-br from-white to-blue-50 rounded-2xl shadow-lg p-8 mb-8 border border-blue-100"
       >
         <div className="flex items-center mb-6">
-          <Music className="h-10 w-10 text-blue-600 mr-4" />
+          <FlaskConical className="h-10 w-10 text-blue-600 mr-4" />
           <h2 className="text-3xl font-bold text-gray-800">
-            Introduction to Movement and Music
+            Introduction to Technologies
           </h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 items-center mb-6">
           <div>
             <p className="text-gray-700 leading-relaxed mb-4 text-lg">
-              Movement and music are fundamental aspects of human expression and
-              development. In early childhood education, these powerful mediums
-              work together to support physical, cognitive, emotional, and
-              social growth in ways that few other activities can achieve.
+              Technologies in early childhood education encompass both digital
+              and physical tools that help children explore, create, and solve
+              problems. From simple cause-and-effect toys to programmable robots
+              and creative apps, technology can inspire curiosity and innovation
+              when used thoughtfully and intentionally.
             </p>
             <p className="text-gray-700 leading-relaxed text-lg">
-              From the earliest months of life, children naturally respond to
-              rhythm, melody, and the invitation to move their bodies. This
-              innate connection to music and movement provides educators with
-              rich opportunities to support holistic development while honoring
-              each child's unique way of expressing themselves through sound and
-              motion.
+              By integrating technology into play and learning, educators can
+              support children's development of digital literacy, critical
+              thinking, and collaborative skills—preparing them for a rapidly
+              changing world.
             </p>
           </div>
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=400&fit=crop&crop=center"
-              alt="Children dancing and moving to music in a bright early childhood setting"
+              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=400&fit=crop&crop=center"
+              alt="Children exploring technology with tablets and programmable toys in a classroom"
               width={600}
               height={400}
               className="rounded-2xl shadow-lg object-cover"
@@ -227,14 +222,14 @@ export default function MovementMusicPage() {
             <div className="absolute inset-0 bg-gradient-to-t from-blue-900/20 to-transparent rounded-2xl"></div>
             <div className="absolute bottom-4 left-4 right-4 text-white">
               <p className="text-sm font-medium">
-                Every child has rhythm within them waiting to be discovered
+                Technology is a tool for creativity and discovery
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Importance of Movement and Music */}
+      {/* Importance of Technologies */}
       <section
         id="importance"
         className="bg-gradient-to-br from-white to-purple-50 rounded-2xl shadow-lg p-8 mb-8 border border-purple-100"
@@ -242,59 +237,58 @@ export default function MovementMusicPage() {
         <div className="flex items-center mb-6">
           <Brain className="h-10 w-10 text-purple-600 mr-4" />
           <h2 className="text-3xl font-bold text-gray-800">
-            Importance of Movement and Music
+            Importance of Technologies
           </h2>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div className="bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl p-6 text-center hover:shadow-lg transition-shadow">
             <div className="bg-white rounded-full w-20 h-20 mx-auto mb-4 flex items-center justify-center shadow-md">
-              <Brain className="h-10 w-10 text-purple-600" />
+              <FlaskConical className="h-10 w-10 text-purple-600" />
             </div>
             <h4 className="font-bold text-gray-800 mb-3 text-lg">
-              Cognitive Development
+              Digital Literacy
             </h4>
             <p className="text-gray-600">
-              Music and movement enhance memory, pattern recognition,
-              mathematical concepts, and language development
+              Early experiences with technology build foundational skills for
+              safe, creative, and effective use of digital tools
             </p>
           </div>
 
           <div className="bg-gradient-to-br from-blue-100 to-cyan-100 rounded-xl p-6 text-center hover:shadow-lg transition-shadow">
             <div className="bg-white rounded-full w-20 h-20 mx-auto mb-4 flex items-center justify-center shadow-md">
-              <Heart className="h-10 w-10 text-blue-600" />
+              <Users className="h-10 w-10 text-blue-600" />
             </div>
             <h4 className="font-bold text-gray-800 mb-3 text-lg">
-              Physical Development
+              Collaboration & Communication
             </h4>
             <p className="text-gray-600">
-              Gross and fine motor skills, coordination, balance, and body
-              awareness are strengthened through movement
+              Technology supports new ways for children to share ideas, work
+              together, and connect with others
             </p>
           </div>
 
           <div className="bg-gradient-to-br from-green-100 to-emerald-100 rounded-xl p-6 text-center hover:shadow-lg transition-shadow">
             <div className="bg-white rounded-full w-20 h-20 mx-auto mb-4 flex items-center justify-center shadow-md">
-              <Users className="h-10 w-10 text-green-600" />
+              <Brain className="h-10 w-10 text-green-600" />
             </div>
             <h4 className="font-bold text-gray-800 mb-3 text-lg">
-              Social-Emotional Growth
+              Creativity & Problem-Solving
             </h4>
             <p className="text-gray-600">
-              Self-expression, emotional regulation, cultural appreciation, and
-              collaborative skills develop naturally
+              Digital and physical technologies encourage children to invent,
+              experiment, and solve problems in new ways
             </p>
           </div>
         </div>
 
         <div className="bg-white rounded-xl p-6 shadow-md">
           <p className="text-gray-700 leading-relaxed text-lg">
-            Research consistently demonstrates that children who engage
-            regularly in movement and music activities show enhanced brain
-            development, improved academic readiness, stronger social skills,
-            and greater emotional resilience. These activities support the
-            integration of multiple developmental domains simultaneously, making
-            them invaluable components of quality early childhood programs.
+            Research shows that children who engage with technology in
+            developmentally appropriate ways demonstrate stronger
+            problem-solving skills, creativity, and adaptability. These
+            experiences prepare them for future learning and responsible
+            participation in a digital world.
           </p>
         </div>
       </section>
@@ -302,40 +296,40 @@ export default function MovementMusicPage() {
       {/* Theoretical Foundation */}
       <section
         id="theories"
-        className="bg-gradient-to-br from-white to-green-50 rounded-2xl shadow-lg p-8 mb-8 border border-green-100"
+        className="bg-gradient-to-br from-white to-pink-50 rounded-2xl shadow-lg p-8 mb-8 border border-pink-100"
       >
         <div className="flex items-center mb-6">
-          <BookOpen className="h-10 w-10 text-green-600 mr-4" />
+          <BookOpen className="h-10 w-10 text-pink-600 mr-4" />
           <h2 className="text-3xl font-bold text-gray-800">
             Theoretical Foundation
           </h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 mb-8">
-          <div className="bg-gradient-to-br from-green-100 to-teal-100 rounded-xl p-8">
-            <h3 className="text-2xl font-semibold text-green-800 mb-6">
-              Dalcroze Method
+          <div className="bg-gradient-to-br from-pink-100 to-yellow-100 rounded-xl p-8">
+            <h3 className="text-2xl font-semibold text-pink-800 mb-6">
+              Constructionism (Papert)
             </h3>
             <ul className="space-y-4 text-gray-700">
               <li className="flex items-start">
-                <span className="text-green-600 font-bold mr-3">•</span>
+                <span className="text-pink-600 font-bold mr-3">•</span>
                 <div>
-                  <strong>Eurhythmics:</strong> Learning music through movement
-                  and physical expression
+                  <strong>Learning by Making:</strong> Children construct
+                  knowledge best through hands-on building and digital creation
                 </div>
               </li>
               <li className="flex items-start">
-                <span className="text-green-600 font-bold mr-3">•</span>
+                <span className="text-pink-600 font-bold mr-3">•</span>
                 <div>
-                  <strong>Body as Instrument:</strong> Using the entire body to
-                  understand musical concepts
+                  <strong>Iterative Design:</strong> Emphasizes testing,
+                  revising, and improving digital and physical projects
                 </div>
               </li>
               <li className="flex items-start">
-                <span className="text-green-600 font-bold mr-3">•</span>
+                <span className="text-pink-600 font-bold mr-3">•</span>
                 <div>
-                  <strong>Improvisation:</strong> Encouraging spontaneous
-                  creative movement and musical expression
+                  <strong>Collaboration:</strong> Learning is enhanced through
+                  shared digital and hands-on projects
                 </div>
               </li>
             </ul>
@@ -343,28 +337,28 @@ export default function MovementMusicPage() {
 
           <div className="bg-gradient-to-br from-blue-100 to-indigo-100 rounded-xl p-8">
             <h3 className="text-2xl font-semibold text-blue-800 mb-6">
-              Multiple Intelligences Theory
+              Digital Play Theory
             </h3>
             <ul className="space-y-4 text-gray-700">
               <li className="flex items-start">
                 <span className="text-blue-600 font-bold mr-3">•</span>
                 <div>
-                  <strong>Musical Intelligence:</strong> Sensitivity to rhythm,
-                  pitch, melody, and tone
+                  <strong>Playful Exploration:</strong> Technology is most
+                  powerful when integrated into playful, child-led learning
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="text-blue-600 font-bold mr-3">•</span>
                 <div>
-                  <strong>Bodily-Kinesthetic:</strong> Learning through physical
-                  movement and body awareness
+                  <strong>Agency:</strong> Children make choices and direct
+                  their own learning with digital tools
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="text-blue-600 font-bold mr-3">•</span>
                 <div>
-                  <strong>Spatial Intelligence:</strong> Understanding space,
-                  movement, and visual patterns
+                  <strong>Balance:</strong> Digital experiences are balanced
+                  with hands-on, social, and outdoor play
                 </div>
               </li>
             </ul>
@@ -373,18 +367,18 @@ export default function MovementMusicPage() {
 
         <div className="relative">
           <Image
-            src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=400&fit=crop&crop=center"
-            alt="Children engaged in structured movement and music learning activities"
+            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=400&fit=crop&crop=center"
+            alt="Children collaborating with tablets, robots, and digital tools in a creative classroom"
             width={800}
             height={400}
             className="rounded-2xl shadow-lg object-cover w-full"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-green-900/30 to-transparent rounded-2xl"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-pink-900/30 to-transparent rounded-2xl"></div>
           <div className="absolute bottom-6 left-6 right-6 text-white">
-            <h4 className="text-xl font-semibold mb-2">Integrated Learning</h4>
+            <h4 className="text-xl font-semibold mb-2">Learning by Doing</h4>
             <p className="text-sm leading-relaxed">
-              Movement and music naturally integrate multiple learning domains,
-              supporting holistic development through joyful engagement.
+              Technology experiences are most powerful when children are active
+              participants in the creative process.
             </p>
           </div>
         </div>
@@ -393,10 +387,10 @@ export default function MovementMusicPage() {
       {/* Resources and Environment */}
       <section
         id="resources"
-        className="bg-gradient-to-br from-white to-yellow-50 rounded-2xl shadow-lg p-8 mb-8 border border-yellow-100"
+        className="bg-gradient-to-br from-white to-green-50 rounded-2xl shadow-lg p-8 mb-8 border border-green-100"
       >
         <div className="flex items-center mb-6">
-          <Wrench className="h-10 w-10 text-yellow-600 mr-4" />
+          <Wrench className="h-10 w-10 text-green-600 mr-4" />
           <h2 className="text-3xl font-bold text-gray-800">
             Resources and Environment
           </h2>
@@ -405,16 +399,16 @@ export default function MovementMusicPage() {
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop&crop=center"
-              alt="Well-organized early childhood music and movement space with instruments and props"
+              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=400&fit=crop&crop=center"
+              alt="Technology-rich classroom with tablets, robots, and creative digital tools"
               width={600}
               height={400}
               className="rounded-2xl shadow-lg object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-yellow-900/20 to-transparent rounded-2xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-green-900/20 to-transparent rounded-2xl"></div>
             <div className="absolute bottom-4 left-4 right-4 text-white">
               <p className="text-sm font-medium">
-                Creating inviting spaces for musical exploration and movement
+                Inspiring spaces encourage digital creativity and exploration
               </p>
             </div>
           </div>
@@ -422,40 +416,40 @@ export default function MovementMusicPage() {
           <div className="space-y-6">
             <div className="bg-white rounded-xl p-6 shadow-md">
               <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
-                <Music className="h-6 w-6 text-yellow-600 mr-3" />
-                Musical Instruments
+                <FlaskConical className="h-6 w-6 text-green-600 mr-3" />
+                Digital Tools
               </h3>
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <strong className="text-gray-800">Percussion:</strong>
+                  <strong className="text-gray-800">Tablets & Apps:</strong>
                   <ul className="text-gray-600 text-sm mt-1">
-                    <li>• Drums and tambourines</li>
-                    <li>• Shakers and maracas</li>
-                    <li>• Rhythm sticks</li>
+                    <li>• Drawing and art apps</li>
+                    <li>• Coding games</li>
+                    <li>• Storytelling platforms</li>
                   </ul>
                 </div>
                 <div>
-                  <strong className="text-gray-800">Melodic:</strong>
+                  <strong className="text-gray-800">Programmable Toys:</strong>
                   <ul className="text-gray-600 text-sm mt-1">
-                    <li>• Xylophones</li>
-                    <li>• Bells and chimes</li>
-                    <li>• Simple keyboards</li>
+                    <li>• Bee-Bot, Code-a-pillar</li>
+                    <li>• Simple robots</li>
+                    <li>• Digital cameras</li>
                   </ul>
                 </div>
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-yellow-100 to-orange-100 rounded-xl p-6">
+            <div className="bg-gradient-to-br from-green-100 to-yellow-100 rounded-xl p-6">
               <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
-                <Heart className="h-6 w-6 text-orange-600 mr-3" />
-                Movement Props
+                <Wrench className="h-6 w-6 text-yellow-600 mr-3" />
+                Physical Technology
               </h3>
               <ul className="text-gray-700 space-y-2">
-                <li>• Colorful scarves and ribbons</li>
-                <li>• Parachutes for group activities</li>
-                <li>• Bean bags and soft balls</li>
-                <li>• Hula hoops and tunnels</li>
-                <li>• Balance beams and stepping stones</li>
+                <li>• Building sets with gears and pulleys</li>
+                <li>• Simple machines and ramps</li>
+                <li>• Light tables and magnifiers</li>
+                <li>• Audio recorders and speakers</li>
+                <li>• Interactive whiteboards</li>
               </ul>
             </div>
           </div>
@@ -481,20 +475,20 @@ export default function MovementMusicPage() {
             </h3>
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-start">
-                <span className="text-indigo-600 mr-2">♪</span>
-                <span>Gentle rocking to lullabies</span>
+                <span className="text-indigo-600 mr-2">💡</span>
+                <span>Exploring light-up and sound toys</span>
               </li>
               <li className="flex items-start">
-                <span className="text-indigo-600 mr-2">♪</span>
-                <span>Simple fingerplays and action songs</span>
+                <span className="text-indigo-600 mr-2">💡</span>
+                <span>Listening to music from digital devices</span>
               </li>
               <li className="flex items-start">
-                <span className="text-indigo-600 mr-2">♪</span>
-                <span>Exploring textured instruments</span>
+                <span className="text-indigo-600 mr-2">💡</span>
+                <span>Observing adults use technology</span>
               </li>
               <li className="flex items-start">
-                <span className="text-indigo-600 mr-2">♪</span>
-                <span>Dancing with caregivers</span>
+                <span className="text-indigo-600 mr-2">💡</span>
+                <span>Manipulating buttons and switches</span>
               </li>
             </ul>
           </div>
@@ -505,20 +499,20 @@ export default function MovementMusicPage() {
             </h3>
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-start">
-                <span className="text-purple-600 mr-2">♪</span>
-                <span>Group musical games and activities</span>
+                <span className="text-purple-600 mr-2">💡</span>
+                <span>Drawing and creating on tablets</span>
               </li>
               <li className="flex items-start">
-                <span className="text-purple-600 mr-2">♪</span>
-                <span>Creative movement with props</span>
+                <span className="text-purple-600 mr-2">💡</span>
+                <span>Exploring programmable toys</span>
               </li>
               <li className="flex items-start">
-                <span className="text-purple-600 mr-2">♪</span>
-                <span>Simple composition and improvisation</span>
+                <span className="text-purple-600 mr-2">💡</span>
+                <span>Recording and playing back sounds</span>
               </li>
               <li className="flex items-start">
-                <span className="text-purple-600 mr-2">♪</span>
-                <span>Cultural music and dance exploration</span>
+                <span className="text-purple-600 mr-2">💡</span>
+                <span>Collaborative digital storytelling</span>
               </li>
             </ul>
           </div>
@@ -529,20 +523,20 @@ export default function MovementMusicPage() {
             </h3>
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-start">
-                <span className="text-green-600 mr-2">♪</span>
-                <span>Complex rhythmic patterns and coordination</span>
+                <span className="text-green-600 mr-2">💡</span>
+                <span>Building and programming robots</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-600 mr-2">♪</span>
-                <span>Choreographed group performances</span>
+                <span className="text-green-600 mr-2">💡</span>
+                <span>Making stop-motion videos</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-600 mr-2">♪</span>
-                <span>Music theory and notation basics</span>
+                <span className="text-green-600 mr-2">💡</span>
+                <span>Exploring educational websites</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-600 mr-2">♪</span>
-                <span>Leadership roles in musical activities</span>
+                <span className="text-green-600 mr-2">💡</span>
+                <span>Learning about internet safety</span>
               </li>
             </ul>
           </div>
@@ -615,32 +609,31 @@ export default function MovementMusicPage() {
                 Inclusive Practices
               </h3>
               <p className="text-gray-700 leading-relaxed">
-                How can we ensure that movement and music activities are
-                accessible and meaningful for children with diverse abilities,
-                cultural backgrounds, and learning styles? Consider adaptations
-                and multiple ways for children to participate and express
-                themselves.
+                How can we ensure that technology experiences are accessible and
+                meaningful for children with diverse abilities, backgrounds, and
+                learning styles? Consider adaptations and multiple ways for
+                children to participate and express themselves.
               </p>
             </div>
 
             <div className="bg-gradient-to-br from-orange-100 to-yellow-100 rounded-xl p-6">
               <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
-                <Heart className="h-6 w-6 text-yellow-600 mr-3" />
+                <Wrench className="h-6 w-6 text-yellow-600 mr-3" />
                 Assessment and Documentation
               </h3>
               <p className="text-gray-700 leading-relaxed">
                 What meaningful ways can we document children's growth in
-                movement and musical expression? How do we capture the joy,
-                creativity, and learning that occurs in these experiences while
-                respecting each child's unique journey?
+                technology use and digital creativity? How do we capture the
+                learning, problem-solving, and innovation that occurs in these
+                experiences while respecting each child's unique journey?
               </p>
             </div>
           </div>
 
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop&crop=center"
-              alt="Diverse group of children engaged in inclusive movement and music activities"
+              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=400&fit=crop&crop=center"
+              alt="Children using tablets and digital tools for creative learning and documentation"
               width={600}
               height={400}
               className="rounded-2xl shadow-lg object-cover"
@@ -648,7 +641,7 @@ export default function MovementMusicPage() {
             <div className="absolute inset-0 bg-gradient-to-t from-orange-900/30 to-transparent rounded-2xl"></div>
             <div className="absolute bottom-4 left-4 right-4 text-white">
               <p className="text-sm font-medium">
-                Every child deserves to experience the joy of movement and music
+                Every child deserves to explore and create with technology
               </p>
             </div>
           </div>
@@ -657,46 +650,45 @@ export default function MovementMusicPage() {
         <div className="bg-white rounded-xl p-6 shadow-md">
           <p className="text-gray-700 leading-relaxed text-lg">
             As educators, we must continuously reflect on our practices to
-            ensure that movement and music experiences truly serve all children.
-            This includes considering how we can honor diverse cultural musical
-            traditions, support children with varying physical abilities, and
-            create environments where every child feels confident to express
-            themselves through sound and movement.
+            ensure that technology experiences truly serve all children. This
+            includes considering how we can honor diverse backgrounds, support
+            children with varying abilities, and create environments where every
+            child feels confident to explore, create, and problem-solve with
+            technology.
           </p>
         </div>
       </section>
 
       {/* Navigation to Other Pages */}
       <div className="grid md:grid-cols-2 gap-6 mb-8">
-        <div className="bg-gradient-to-br from-pink-100 to-purple-100 rounded-2xl p-6 hover:shadow-xl transition-all duration-300">
+        <div className="bg-gradient-to-br from-blue-100 to-pink-100 rounded-2xl p-6 hover:shadow-xl transition-all duration-300">
           <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center">
-            <Home className="h-6 w-6 text-pink-500 mr-3" />
-            Explore Art Activities
+            <Home className="h-6 w-6 text-blue-500 mr-3" />
+            Explore Science Activities
           </h3>
           <p className="text-gray-600 mb-4">
-            Discover creative art experiences that complement movement and music
+            Discover hands-on science experiences that complement technology
             learning
           </p>
           <a
-            href="/art"
-            className="inline-flex items-center text-pink-600 hover:text-pink-700 font-semibold"
+            href="/science"
+            className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold"
           >
             Learn More →
           </a>
         </div>
 
-        <div className="bg-gradient-to-br from-purple-100 to-blue-100 rounded-2xl p-6 hover:shadow-xl transition-all duration-300">
+        <div className="bg-gradient-to-br from-green-100 to-yellow-100 rounded-2xl p-6 hover:shadow-xl transition-all duration-300">
           <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center">
-            <Users className="h-6 w-6 text-purple-500 mr-3" />
-            Drama & Puppetry
+            <Palette className="h-6 w-6 text-green-500 mr-3" />
+            Art & Creativity
           </h3>
           <p className="text-gray-600 mb-4">
-            Explore dramatic expression that naturally integrates with musical
-            experiences
+            Explore creative art experiences that inspire technology exploration
           </p>
           <a
-            href="/drama-puppetry"
-            className="inline-flex items-center text-purple-600 hover:text-purple-700 font-semibold"
+            href="/art"
+            className="inline-flex items-center text-green-600 hover:text-green-700 font-semibold"
           >
             Learn More →
           </a>
@@ -712,32 +704,25 @@ export default function MovementMusicPage() {
         <div className="bg-white rounded-xl p-6 shadow-sm">
           <div className="text-gray-700 space-y-4 leading-relaxed">
             <p>
-              Dalcroze, É. J. (1921). <em>Rhythm, music and education</em>.
-              Putnam.
-            </p>
-            <p>
-              Gardner, H. (2011).{" "}
-              <em>Frames of mind: The theory of multiple intelligences</em>.
+              Papert, S. (1980).{" "}
+              <em>Mindstorms: Children, computers, and powerful ideas</em>.
               Basic Books.
             </p>
             <p>
-              Kenney, S. (2008).{" "}
-              <em>
-                Nursery rhymes, songs, and singing games for young children
-              </em>
-              . Music Educators National Conference.
-            </p>
-            <p>
-              Weikart, P. S. (2003).{" "}
-              <em>
-                Teaching movement and dance: A sequential approach to rhythmic
-                movement
-              </em>{" "}
-              (5th ed.). High/Scope Press.
+              Marsh, J. (2017). <em>Digital play in the early years</em>. SAGE
+              Publications.
             </p>
             <p>
               Australian Children's Education and Care Quality Authority.
               (2020). <em>National Quality Standard</em>. ACECQA.
+            </p>
+            <p>
+              NAEYC & Fred Rogers Center. (2012).{" "}
+              <em>
+                Technology and interactive media as tools in early childhood
+                programs serving children from birth through age 8
+              </em>
+              .
             </p>
           </div>
         </div>
