@@ -19,6 +19,7 @@ import {
   Camera,
   Smartphone,
   Tablet,
+  Wrench,
 } from "lucide-react";
 import Image from "next/image";
 
@@ -505,7 +506,7 @@ export default function HomePage() {
           <div className="bg-gradient-to-br from-white to-gray-50 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer transform hover:-translate-y-1">
             <div className="relative mb-4">
               <Image
-                src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=400&h=250&fit=crop&crop=center"
+                src="https://mindchamps-prod-wp.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2018/07/16211828/Kids-theatre.jpg"
                 alt="Children engaged in dramatic play and storytelling activities"
                 width={400}
                 height={250}
@@ -1171,7 +1172,8 @@ export default function HomePage() {
       </section>
 
       {/* Quick Navigation to Main Pages */}
-      <div className="mt-12 grid md:grid-cols-2 gap-6">
+      <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Art */}
         <div className="bg-gradient-to-br from-pink-100 to-purple-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
           <div className="flex items-center mb-4">
             <Palette className="h-10 w-10 text-pink-500 mr-4" />
@@ -1200,6 +1202,7 @@ export default function HomePage() {
           </a>
         </div>
 
+        {/* Drama & Puppetry */}
         <div className="bg-gradient-to-br from-purple-100 to-blue-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
           <div className="flex items-center mb-4">
             <Drama className="h-10 w-10 text-purple-500 mr-4" />
@@ -1209,7 +1212,7 @@ export default function HomePage() {
           </div>
           <div className="relative mb-6">
             <Image
-              src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=500&h=200&fit=crop&crop=center"
+              src="https://mindchamps-prod-wp.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2018/07/16211828/Kids-theatre.jpg"
               alt="Children engaged in drama and puppetry"
               width={500}
               height={200}
@@ -1223,6 +1226,232 @@ export default function HomePage() {
           <a
             href="/drama-puppetry"
             className="inline-flex items-center bg-purple-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-purple-700 transition-colors"
+          >
+            Learn More →
+          </a>
+        </div>
+
+        {/* Movement & Music */}
+        <div className="bg-gradient-to-br from-blue-100 to-green-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <div className="flex items-center mb-4">
+            <Sparkles className="h-10 w-10 text-blue-500 mr-4" />
+            <h3 className="text-2xl font-bold text-gray-800">
+              Movement & Music
+            </h3>
+          </div>
+          <div className="relative mb-6">
+            <Image
+              src="https://images.unsplash.com/photo-1503676382389-4809596d5290?w=500&h=200&fit=crop&crop=center"
+              alt="Children moving and making music together"
+              width={500}
+              height={200}
+              className="rounded-xl object-cover w-full"
+            />
+          </div>
+          <p className="text-gray-600 mb-6 text-lg leading-relaxed">
+            Engage in activities that promote physical development, rhythm, and
+            creative movement through music and dance.
+          </p>
+          <a
+            href="/movement-music"
+            className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-700 transition-colors"
+          >
+            Learn More →
+          </a>
+        </div>
+
+        {/* Science */}
+        <div className="bg-gradient-to-br from-green-100 to-yellow-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <div className="flex items-center mb-4">
+            <FlaskConical className="h-10 w-10 text-green-500 mr-4" />
+            <h3 className="text-2xl font-bold text-gray-800">Science</h3>
+          </div>
+          <div className="relative mb-6">
+            <Image
+              src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=500&h=200&fit=crop&crop=center"
+              alt="Children exploring science experiments"
+              width={500}
+              height={200}
+              className="rounded-xl object-cover w-full"
+            />
+          </div>
+          <p className="text-gray-600 mb-6 text-lg leading-relaxed">
+            Discover hands-on science experiences that foster curiosity,
+            observation, and experimentation.
+          </p>
+          <a
+            href="/science"
+            className="inline-flex items-center bg-green-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-green-700 transition-colors"
+          >
+            Learn More →
+          </a>
+        </div>
+
+        {/* Engineering */}
+        <div className="bg-gradient-to-br from-yellow-100 to-gray-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <div className="flex items-center mb-4">
+            <Wrench className="h-10 w-10 text-yellow-700 mr-4" />
+            <h3 className="text-2xl font-bold text-gray-800">Engineering</h3>
+          </div>
+          <div className="relative mb-6">
+            <Image
+              src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=500&h=200&fit=crop&crop=center"
+              alt="Children building and exploring engineering concepts"
+              width={500}
+              height={200}
+              className="rounded-xl object-cover w-full"
+            />
+          </div>
+          <p className="text-gray-600 mb-6 text-lg leading-relaxed">
+            Encourage problem-solving, building, and design thinking through
+            hands-on engineering activities.
+          </p>
+          <a
+            href="/engineering"
+            className="inline-flex items-center bg-yellow-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-yellow-700 transition-colors"
+          >
+            Learn More →
+          </a>
+        </div>
+
+        {/* Technologies */}
+        <div className="bg-gradient-to-br from-gray-100 to-orange-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <div className="flex items-center mb-4">
+            <FlaskConical className="h-10 w-10 text-orange-600 mr-4" />
+            <h3 className="text-2xl font-bold text-gray-800">Technologies</h3>
+          </div>
+          <div className="relative mb-6">
+            <Image
+              src="https://images.pexels.com/photos/4145191/pexels-photo-4145191.jpeg?w=500&h=200&fit=crop&crop=center"
+              alt="Children using digital devices and exploring technology"
+              width={500}
+              height={200}
+              className="rounded-xl object-cover w-full"
+            />
+          </div>
+          <p className="text-gray-600 mb-6 text-lg leading-relaxed">
+            Discover digital tools, coding, and technology experiences that
+            foster creativity and digital literacy.
+          </p>
+          <a
+            href="/technologies"
+            className="inline-flex items-center bg-orange-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-orange-700 transition-colors"
+          >
+            Learn More →
+          </a>
+        </div>
+
+        {/* Mathematics & Numeracy */}
+        <div className="bg-gradient-to-br from-yellow-100 to-pink-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <div className="flex items-center mb-4">
+            <Calculator className="h-10 w-10 text-yellow-500 mr-4" />
+            <h3 className="text-2xl font-bold text-gray-800">
+              Mathematics & Numeracy
+            </h3>
+          </div>
+          <div className="relative mb-6">
+            <Image
+              src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=500&h=200&fit=crop&crop=center"
+              alt="Children exploring math concepts with blocks and numbers"
+              width={500}
+              height={200}
+              className="rounded-xl object-cover w-full"
+            />
+          </div>
+          <p className="text-gray-600 mb-6 text-lg leading-relaxed">
+            Explore math and numeracy activities that build problem-solving,
+            reasoning, and foundational skills for lifelong learning.
+          </p>
+          <a
+            href="/mathematics-numeracy"
+            className="inline-flex items-center bg-yellow-500 text-white px-6 py-3 rounded-xl font-semibold hover:bg-yellow-600 transition-colors"
+          >
+            Learn More →
+          </a>
+        </div>
+
+        {/* Language & Literacy */}
+        <div className="bg-gradient-to-br from-indigo-100 to-pink-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <div className="flex items-center mb-4">
+            <BookOpen className="h-10 w-10 text-indigo-500 mr-4" />
+            <h3 className="text-2xl font-bold text-gray-800">
+              Language & Literacy
+            </h3>
+          </div>
+          <div className="relative mb-6">
+            <Image
+              src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=500&h=200&fit=crop&crop=center"
+              alt="Children reading and engaging in literacy activities"
+              width={500}
+              height={200}
+              className="rounded-xl object-cover w-full"
+            />
+          </div>
+          <p className="text-gray-600 mb-6 text-lg leading-relaxed">
+            Support language development and literacy through storytelling,
+            reading, and creative communication activities.
+          </p>
+          <a
+            href="/language-literacy"
+            className="inline-flex items-center bg-indigo-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-indigo-700 transition-colors"
+          >
+            Learn More →
+          </a>
+        </div>
+
+        {/* Humanities & Social Sciences */}
+        <div className="bg-gradient-to-br from-pink-100 to-green-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <div className="flex items-center mb-4">
+            <FileText className="h-10 w-10 text-green-700 mr-4" />
+            <h3 className="text-2xl font-bold text-gray-800">
+              Humanities & Social Sciences
+            </h3>
+          </div>
+          <div className="relative mb-6">
+            <Image
+              src="https://images.unsplash.com/photo-1509228468518-180dd4864904?w=500&h=200&fit=crop&crop=center"
+              alt="Children learning about history, geography, and society"
+              width={500}
+              height={200}
+              className="rounded-xl object-cover w-full"
+            />
+          </div>
+          <p className="text-gray-600 mb-6 text-lg leading-relaxed">
+            Explore activities that connect children to history, geography,
+            culture, and social understanding.
+          </p>
+          <a
+            href="/humanities-social-sciences"
+            className="inline-flex items-center bg-green-700 text-white px-6 py-3 rounded-xl font-semibold hover:bg-green-800 transition-colors"
+          >
+            Learn More →
+          </a>
+        </div>
+
+        {/* Integrated Curriculum */}
+        <div className="bg-gradient-to-br from-yellow-100 to-blue-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+          <div className="flex items-center mb-4">
+            <Sparkles className="h-10 w-10 text-yellow-600 mr-4" />
+            <h3 className="text-2xl font-bold text-gray-800">
+              Integrated Curriculum
+            </h3>
+          </div>
+          <div className="relative mb-6">
+            <Image
+              src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=500&h=200&fit=crop&crop=center"
+              alt="Children collaborating on integrated curriculum projects"
+              width={500}
+              height={200}
+              className="rounded-xl object-cover w-full"
+            />
+          </div>
+          <p className="text-gray-600 mb-6 text-lg leading-relaxed">
+            Connect learning across STEM, arts, and social sciences for
+            holistic, creative, and future-ready education.
+          </p>
+          <a
+            href="/integrated-curriculum"
+            className="inline-flex items-center bg-yellow-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-yellow-700 transition-colors"
           >
             Learn More →
           </a>

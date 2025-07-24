@@ -196,15 +196,15 @@ export default function IntegratedCurriculumPage() {
         </div>
         <div className="grid md:grid-cols-2 gap-8 items-center mb-6">
           <div>
-            <p className="text-gray-700 leading-relaxed mb-4 text-lg">
-              Integrated curriculum brings together multiple learning
-              domains—science, technology, engineering, arts, mathematics,
-              environment, inclusion, and more—into meaningful, connected
-              experiences. Approaches like STEM, STEAM, STREAM, and STEAMIE
-              foster creativity, critical thinking, and real-world
-              problem-solving by breaking down traditional subject silos.
+            <p className="text-gray-700 leading-relaxed mb-4 text-lg text-justify">
+              Integrated curriculum brings together multiple learning domains
+              science, technology, engineering, arts, mathematics, environment,
+              inclusion, and more into meaningful, connected experiences.
+              Approaches like STEM, STEAM, STREAM, and STEAMIE foster
+              creativity, critical thinking, and real world problem solving by
+              breaking down traditional subject silos.
             </p>
-            <p className="text-gray-700 leading-relaxed text-lg">
+            <p className="text-gray-700 leading-relaxed text-lg text-justify">
               By connecting concepts and skills across domains, children develop
               a deeper understanding of the world, see the relevance of their
               learning, and build the flexible thinking needed for the future.
@@ -212,7 +212,7 @@ export default function IntegratedCurriculumPage() {
           </div>
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1503676382389-4809596d5290?w=600&h=400&fit=crop&crop=center"
+              src="https://d190qg16zubs76.cloudfront.net/blog/_640xAUTO_crop_center-center_none/Using-Technology-in-Early-Childhood-Education.png"
               alt="Children collaborating on integrated STEM and arts projects with hands-on materials"
               width={600}
               height={400}
@@ -359,7 +359,7 @@ export default function IntegratedCurriculumPage() {
         </div>
         <div className="relative">
           <Image
-            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=400&fit=crop&crop=center"
+            src="https://www.graduateprogram.org/wp-content/uploads/2020/02/Feb.-25-The-Value-of-Play-in-Early-Childhood-Education_web-1536x1025.jpg"
             alt="Children collaborating on integrated STEM, arts, and environment projects"
             width={800}
             height={400}
@@ -392,7 +392,7 @@ export default function IntegratedCurriculumPage() {
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop&crop=center"
+              src="https://d190qg16zubs76.cloudfront.net/global-brand/Tech-Talk-2.png"
               alt="Classroom with STEM, art, and nature materials for integrated learning"
               width={600}
               height={400}
@@ -616,7 +616,7 @@ export default function IntegratedCurriculumPage() {
           </div>
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=600&h=400&fit=crop&crop=center"
+              src="https://d190qg16zubs76.cloudfront.net/blog/_640xAUTO_crop_center-center_none/Tech-Talk-4.png"
               alt="Children working together on integrated projects, exploring STEM, arts, and environment"
               width={600}
               height={400}

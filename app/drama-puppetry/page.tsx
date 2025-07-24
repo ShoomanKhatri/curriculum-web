@@ -485,7 +485,7 @@ export default function DramaPuppetryPage() {
           </div>
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=600&h=400&fit=crop&crop=center"
+              src="https://mindchamps-prod-wp.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2018/07/16211828/Kids-theatre.jpg"
               alt="Children engaged in dramatic play and storytelling activities"
               width={600}
               height={400}

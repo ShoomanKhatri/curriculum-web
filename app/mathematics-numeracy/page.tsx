@@ -224,7 +224,7 @@ export default function MathematicsNumeracyPage() {
           </div>
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&h=400&fit=crop&crop=center"
+              src="https://onlinedegrees.sandiego.edu/wp-content/uploads/2019/12/educational-technology.jpg"
               alt="Children playing with colorful counting blocks, numbers, and shapes, representing early math and numeracy concepts"
               width={600}
               height={400}
@@ -377,7 +377,7 @@ export default function MathematicsNumeracyPage() {
 
         <div className="relative">
           <Image
-            src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=800&h=400&fit=crop&crop=center"
+            src="https://world.edu/wp-content/uploads/2019/09/group-and-teacher-doing-a-math-problem.jpg"
             alt="Children working together on hands-on math activities with shapes, numbers, and manipulatives"
             width={800}
             height={400}
@@ -409,7 +409,7 @@ export default function MathematicsNumeracyPage() {
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=600&h=400&fit=crop&crop=center"
+              src="https://media.istockphoto.com/id/2149365592/photo/boy-showing-number-five-with-blocks.jpg?s=612x612&w=0&k=20&c=5yzHacKfZ3IM1P1If_0iwu2YK3kYl3Ses2X0w4DEHEs="
               alt="Children's math area with counting beads, shapes, and colorful manipulatives for numeracy learning"
               width={600}
               height={400}
@@ -643,7 +643,7 @@ export default function MathematicsNumeracyPage() {
 
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=600&h=400&fit=crop&crop=center"
+              src="https://media.istockphoto.com/id/1768516789/photo/child-thinking-and-homework-with-light-bulb-for-learning-math-numbers-and-creative-ideas-or.jpg?s=612x612&w=0&k=20&c=QeXVf-N3AgRCXHgOLAlZoWR9Se9p_c9po_wu_odWbMk="
               alt="Children working together on numeracy projects, counting and sorting objects, exploring math concepts"
               width={600}
               height={400}

@@ -197,23 +197,23 @@ export default function TechnologiesPage() {
 
         <div className="grid md:grid-cols-2 gap-8 items-center mb-6">
           <div>
-            <p className="text-gray-700 leading-relaxed mb-4 text-lg">
+            <p className="text-gray-700 leading-relaxed mb-4 text-lg text-justify">
               Technologies in early childhood education encompass both digital
               and physical tools that help children explore, create, and solve
               problems. From simple cause-and-effect toys to programmable robots
               and creative apps, technology can inspire curiosity and innovation
               when used thoughtfully and intentionally.
             </p>
-            <p className="text-gray-700 leading-relaxed text-lg">
+            <p className="text-gray-700 leading-relaxed text-lg text-justify">
               By integrating technology into play and learning, educators can
               support children's development of digital literacy, critical
-              thinking, and collaborative skills—preparing them for a rapidly
+              thinking, and collaborative skills preparing them for a rapidly
               changing world.
             </p>
           </div>
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=400&fit=crop&crop=center"
+              src="https://image.cnbcfm.com/api/v1/image/107214099-1679584519371-gettyimages-614860106-000106526123_Unapproved.jpeg?v=1698100681&w=1480&h=833&ffmt=webp&vtcrop=y"
               alt="Children exploring technology with tablets and programmable toys in a classroom"
               width={600}
               height={400}
@@ -367,7 +367,7 @@ export default function TechnologiesPage() {
 
         <div className="relative">
           <Image
-            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=400&fit=crop&crop=center"
+            src="https://onlinedegrees.sandiego.edu/wp-content/uploads/2019/12/educational-technology.jpg"
             alt="Children collaborating with tablets, robots, and digital tools in a creative classroom"
             width={800}
             height={400}

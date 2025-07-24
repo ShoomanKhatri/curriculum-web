@@ -207,7 +207,7 @@ export default function LanguageLiteracyPage() {
           </div>
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&h=400&fit=crop&crop=center"
+              src="https://www.oneeducation.org.uk/wp-content/uploads/2021/10/Communication-skills-for-children.jpg"
               alt="Baby looking at a book with a caregiver, early language and literacy development"
               width={600}
               height={400}
@@ -360,7 +360,7 @@ export default function LanguageLiteracyPage() {
 
         <div className="relative">
           <Image
-            src="https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&h=400&fit=crop&crop=center"
+            src="https://www.laparent.com/wp-content/uploads/2018/09/Children-sitting-on-floor-and-reading-tale-book-in-preschool-libraryKindergarten-school-education-concept.-859996890_3869x2580-copy-768x512.jpeg"
             alt="Children reading and sharing stories together in a cozy classroom"
             width={800}
             height={400}
@@ -392,7 +392,7 @@ export default function LanguageLiteracyPage() {
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&h=400&fit=crop&crop=center"
+              src="https://cdn.raring2go.co.uk/wp-content/uploads/2022/03/30134628/kidslearn1.jpg"
               alt="Inviting reading corner with books, cushions, and puppets"
               width={600}
               height={400}
@@ -614,7 +614,7 @@ export default function LanguageLiteracyPage() {
 
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1503676382389-4809596d5290?w=600&h=400&fit=crop&crop=center"
+              src="https://educomics.org/wp-content/uploads/2021/10/images2574-61765a1b595b2.jpg"
               alt="Children sharing stories and writing together in a diverse classroom"
               width={600}
               height={400}

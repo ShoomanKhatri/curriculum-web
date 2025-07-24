@@ -190,15 +190,15 @@ export default function EngineeringPage() {
 
         <div className="grid md:grid-cols-2 gap-8 items-center mb-6">
           <div>
-            <p className="text-gray-700 leading-relaxed mb-4 text-lg">
+            <p className="text-gray-700 leading-relaxed mb-4 text-lg text-justify">
               Engineering in early childhood is about nurturing curiosity,
               creativity, and the ability to solve problems through hands-on
-              exploration. Children are natural engineers—they love to build,
+              exploration. Children are natural engineers they love to build,
               take things apart, and figure out how things work. By providing
               opportunities to design, construct, and experiment, we lay the
               foundation for lifelong learning and innovation.
             </p>
-            <p className="text-gray-700 leading-relaxed text-lg">
+            <p className="text-gray-700 leading-relaxed text-lg text-justify">
               Through engineering activities, children develop critical
               thinking, perseverance, and collaboration skills. These
               experiences empower them to become confident creators and
@@ -207,7 +207,7 @@ export default function EngineeringPage() {
           </div>
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=600&h=400&fit=crop&crop=center"
+              src="https://www.transform-our-world.org/image/shutterstock_554621923-1200x675_-_anna_hands0.jpg"
               alt="Children collaborating and building with blocks and construction toys, representing engineering concepts"
               width={600}
               height={400}
@@ -361,7 +361,7 @@ export default function EngineeringPage() {
 
         <div className="relative">
           <Image
-            src="https://images.unsplash.com/photo-1503676382389-4809596d5290?w=800&h=400&fit=crop&crop=center"
+            src="https://www.transform-our-world.org/image/shutterstock_554621923-1200x675_-_anna_hands0.jpg"
             alt="Children working together on a STEM engineering project with building materials and teamwork"
             width={800}
             height={400}
@@ -393,7 +393,7 @@ export default function EngineeringPage() {
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=600&h=400&fit=crop&crop=center"
+              src="https://www.sioux.eu/media/nmwjg0yb/meiden-robotarm.jpg"
               alt="Children's engineering area with blocks, gears, and recycled materials for building and inventing"
               width={600}
               height={400}
@@ -626,7 +626,7 @@ export default function EngineeringPage() {
 
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=600&h=400&fit=crop&crop=center"
+              src="https://www.noesis.edu.gr/wp-content/uploads/2019/09/hertz-edcamp-makerspace_0-400x265.jpg"
               alt="Children working together on engineering projects, building with blocks and tools"
               width={600}
               height={400}

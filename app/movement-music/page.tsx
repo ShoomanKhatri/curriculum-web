@@ -218,7 +218,7 @@ export default function MovementMusicPage() {
           </div>
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=400&fit=crop&crop=center"
+              src="https://ecedevelopment.ca/wp-content/uploads/2024/01/The-Power-of-Music-and-Movement-in-Early-Childhood-Development.jpg"
               alt="Children dancing and moving to music in a bright early childhood setting"
               width={600}
               height={400}
@@ -373,7 +373,7 @@ export default function MovementMusicPage() {
 
         <div className="relative">
           <Image
-            src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=400&fit=crop&crop=center"
+            src="https://www.libertyparkmusic.com/wp-content/uploads/Children_with_music.jpg"
             alt="Children engaged in structured movement and music learning activities"
             width={800}
             height={400}
@@ -405,7 +405,7 @@ export default function MovementMusicPage() {
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop&crop=center"
+              src="https://live-production.wcms.abc-cdn.net.au/47bae0d31c9c6bcee573fcc00eca36a7?impolicy=wcms_crop_resize&cropH=1079&cropW=1918&xPos=2&yPos=0&width=862&height=485"
               alt="Well-organized early childhood music and movement space with instruments and props"
               width={600}
               height={400}
@@ -639,7 +639,7 @@ export default function MovementMusicPage() {
 
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop&crop=center"
+              src="https://live-production.wcms.abc-cdn.net.au/47bae0d31c9c6bcee573fcc00eca36a7?impolicy=wcms_crop_resize&cropH=1079&cropW=1918&xPos=2&yPos=0&width=862&height=485"
               alt="Diverse group of children engaged in inclusive movement and music activities"
               width={600}
               height={400}
@@ -665,43 +665,6 @@ export default function MovementMusicPage() {
           </p>
         </div>
       </section>
-
-      {/* Navigation to Other Pages */}
-      <div className="grid md:grid-cols-2 gap-6 mb-8">
-        <div className="bg-gradient-to-br from-pink-100 to-purple-100 rounded-2xl p-6 hover:shadow-xl transition-all duration-300">
-          <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center">
-            <Home className="h-6 w-6 text-pink-500 mr-3" />
-            Explore Art Activities
-          </h3>
-          <p className="text-gray-600 mb-4">
-            Discover creative art experiences that complement movement and music
-            learning
-          </p>
-          <a
-            href="/art"
-            className="inline-flex items-center text-pink-600 hover:text-pink-700 font-semibold"
-          >
-            Learn More →
-          </a>
-        </div>
-
-        <div className="bg-gradient-to-br from-purple-100 to-blue-100 rounded-2xl p-6 hover:shadow-xl transition-all duration-300">
-          <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center">
-            <Users className="h-6 w-6 text-purple-500 mr-3" />
-            Drama & Puppetry
-          </h3>
-          <p className="text-gray-600 mb-4">
-            Explore dramatic expression that naturally integrates with musical
-            experiences
-          </p>
-          <a
-            href="/drama-puppetry"
-            className="inline-flex items-center text-purple-600 hover:text-purple-700 font-semibold"
-          >
-            Learn More →
-          </a>
-        </div>
-      </div>
 
       {/* References */}
       <section className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8 border border-gray-200">

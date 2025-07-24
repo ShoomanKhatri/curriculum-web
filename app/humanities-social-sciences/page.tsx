@@ -206,7 +206,7 @@ export default function HumanitiesSocialSciencesPage() {
           </div>
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1503676382389-4809596d5290?w=600&h=400&fit=crop&crop=center"
+              src="https://www.wou.edu.my/wp-content/uploads/Early-Childhood-Education-1.png"
               alt="Children exploring family, community, and world cultures through stories and play"
               width={600}
               height={400}
@@ -352,7 +352,7 @@ export default function HumanitiesSocialSciencesPage() {
         </div>
         <div className="relative">
           <Image
-            src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=400&fit=crop&crop=center"
+            src="https://www.wou.edu.my/wp-content/uploads/Bachelor-of-Education-Honours-1.png"
             alt="Children exploring maps, cultures, and social relationships in a group setting"
             width={800}
             height={400}
@@ -383,7 +383,7 @@ export default function HumanitiesSocialSciencesPage() {
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=600&h=400&fit=crop&crop=center"
+              src="https://www.wou.edu.my/wp-content/uploads/Early-Childhood-Education-1.png"
               alt="Children's area with books, maps, and cultural artifacts for exploring HASS concepts"
               width={600}
               height={400}
@@ -608,7 +608,7 @@ export default function HumanitiesSocialSciencesPage() {
           </div>
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=600&h=400&fit=crop&crop=center"
+              src="https://cdn-ak.f.st-hatena.com/images/fotolife/a/americanschools/20190920/20190920204317.jpg"
               alt="Children working together on social studies projects, exploring cultures and communities"
               width={600}
               height={400}

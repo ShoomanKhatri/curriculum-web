@@ -186,24 +186,24 @@ export default function SciencePage() {
         </div>
         <div className="grid md:grid-cols-2 gap-8 items-center mb-6">
           <div>
-            <p className="text-gray-700 leading-relaxed mb-4 text-lg">
+            <p className="text-gray-700 leading-relaxed mb-4 text-lg text-justify">
               Science in early childhood education is about nurturing children's
-              natural curiosity and sense of wonder. Through hands-on
+              natural curiosity and sense of wonder. Through hands on
               exploration, children learn to ask questions, make predictions,
               and investigate the world around them. Science experiences in ECEC
               lay the foundation for lifelong learning, critical thinking, and
               problem-solving skills.
             </p>
-            <p className="text-gray-700 leading-relaxed text-lg">
-              Everyday moments—like watching a bug crawl, mixing colors, or
-              feeling the wind—are opportunities for scientific discovery.
+            <p className="text-gray-700 leading-relaxed text-lg text-justify">
+              Everyday moments like watching a bug crawl, mixing colors, or
+              feeling the wind are opportunities for scientific discovery.
               Educators play a vital role in creating environments that
               encourage observation, experimentation, and joyful learning.
             </p>
           </div>
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&h=400&fit=crop&crop=center"
+              src="https://www.the74million.org/wp-content/uploads/2022/09/kids_science_class.jpg"
               alt="Children exploring science outdoors with magnifying glasses"
               width={600}
               height={400}
@@ -349,7 +349,7 @@ export default function SciencePage() {
         </div>
         <div className="relative">
           <Image
-            src="https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&h=400&fit=crop&crop=center"
+            src="https://www.ednewsdaily.com/wp-content/uploads/2022/11/image-1-660x400.jpg"
             alt="Children conducting science experiments with magnifiers and natural materials"
             width={800}
             height={400}
@@ -380,7 +380,7 @@ export default function SciencePage() {
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=600&h=400&fit=crop&crop=center"
+              src="https://www.ednewsdaily.com/wp-content/uploads/2022/11/image-1-660x400.jpg"
               alt="Science center with natural materials, magnifiers, and discovery tools"
               width={600}
               height={400}
@@ -560,7 +560,7 @@ export default function SciencePage() {
           </div>
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=600&h=400&fit=crop&crop=center"
+              src="https://www.ednewsdaily.com/wp-content/uploads/2022/11/image-1-660x400.jpg"
               alt="Children collaborating on science projects with diverse materials"
               width={600}
               height={400}
